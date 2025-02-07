@@ -11,3 +11,16 @@ os = "linux"
     [[ONNXRuntime_CUDA.download]]
     sha256 = "866763f4549708ada9c90e144e1eac39401f4e2159d9f635f024fe55d213f433"
     url = "https://github.com/stemann/ONNXRuntime_CUDA_jll.jl/releases/download/ONNXRuntime_CUDA-v1.10.0+0/ONNXRuntime_CUDA.v1.10.0.aarch64-linux-gnu-cxx03-cuda_platform+jetson-cuda+10.2.tar.gz"
+[[ONNXRuntime_CUDA]]
+arch = "aarch64"
+cuda = "10.2"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8fd16a4aa77381b9e1a72fa16c9c8ce9e0eedb49"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[ONNXRuntime_CUDA.download]]
+    sha256 = "866763f4549708ada9c90e144e1eac39401f4e2159d9f635f024fe55d213f433"
+    url = "https://github.com/stemann/ONNXRuntime_CUDA_jll.jl/releases/download/ONNXRuntime_CUDA-v1.10.0+0/ONNXRuntime_CUDA.v1.10.0.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+10.2.tar.gz"

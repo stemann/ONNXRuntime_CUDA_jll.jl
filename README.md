@@ -16,4 +16,4 @@ The tarballs for `ONNXRuntime_CUDA_jll.jl` have been built from these sources:
 
 `ONNXRuntime_CUDA_jll.jl` is available for the following platforms:
 
-* `Linux aarch64 {cuda=10.2, cuda_platform=jetson, cxxstring_abi=cxx03, libc=glibc}` (`aarch64-linux-gnu-cxx03-cuda_platform+jetson-cuda+10.2`)
+* `Linux aarch64 {cuda=10.2, cuda_platform=jetson, cxxstring_abi=cxx11, libc=glibc}` (`aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+10.2`)
